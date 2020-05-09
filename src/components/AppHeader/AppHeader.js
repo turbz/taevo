@@ -18,16 +18,28 @@ export default function AppHeader() {
       </h1>
       <nav className={!addClass ? "nav" : "nav addClass"}>
         <ul>
-          <li>Home</li>
-          <li>Service</li>
-          <li>About Us</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
         <ul>
           <li></li>
           <li>Connect</li>
-          <li>Subscribe</li>
+          <li>
+            <a href="#contact">Try Our Services</a>
+          </li>
         </ul>
       </nav>
       <img src={menu} alt="menu" className="menu" />

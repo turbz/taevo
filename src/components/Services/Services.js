@@ -9,15 +9,18 @@ import "./Services.css";
 
 export default function Services() {
   return (
-    <section className="Services">
+    <section id="services" className="Services">
       <article className="Service-Card">
         <div>
-          <h2>Stunning Design Tools</h2>
+          <h2>Headcount Management</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Find exactly who you need, when you need them. Utilize our headcount
+            management tool for both onboarding and offboarding employees. Get
+            comprehensive data insight about each employee/department based on
+            demographics, department spending, employee job history, etc.
           </p>
-          <button>Get Started</button>
+
+          <a href="#contact">Try Our Services</a>
         </div>
 
         <div>
@@ -30,22 +33,26 @@ export default function Services() {
         </div>
 
         <div>
-          <h2>Stunning Design Tools</h2>
+          <h2>Recruiting & Hiring</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Talent armed with the skills of the future is more in demand than
+            ever. Attract relevant talent and gain more insight about your
+            candidates without leaving your screen.
           </p>
-          <button>Get Started</button>
+
+          <a href="#contact">Try Our Services</a>
         </div>
       </article>
       <article className="Service-Card">
         <div>
-          <h2>Stunning Design Tools</h2>
+          <h2>Training & Development</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Talent has never been more important to the success of a
+            corporation. Customize training to fit the needs of your
+            organization's most talented individuals.
           </p>
-          <button>Get Started</button>
+
+          <a href="#contact">Try Our Services</a>
         </div>
 
         <div>
@@ -58,12 +65,14 @@ export default function Services() {
         </div>
 
         <div>
-          <h2>Stunning Design Tools</h2>
+          <h2>Reporting</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            There's nothing more frustrating than filling forms. Get live and
+            automated reports directly from your browser. Which can also be
+            downloaded!
           </p>
-          <button>Get Started</button>
+
+          <a href="#contact">Try Our Services</a>
         </div>
       </article>
     </section>

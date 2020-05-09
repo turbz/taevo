@@ -1,11 +1,11 @@
 .App-header {
   color: #737574;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 86%;
+  width: 100%;
   height: 80px;
-  margin: auto;
+  padding: 0 7%;
   z-index: 100;
 }
 
@@ -60,7 +60,7 @@
 
 .App-header nav ul:last-of-type {
   font-weight: 600;
-  width: 25%;
+  width: 36%;
 }
 
 .App-header nav ul:last-of-type li {
@@ -74,10 +74,11 @@
   border-radius: 50%;
 }
 
-.App-header nav ul:last-of-type li:nth-child(3) {
-  color: #7fbcbe;
+.App-header nav ul:last-of-type li:nth-child(3) a {
+  text-transform: uppercase;
+  color: #fff;
   padding: 0.8em 2em;
-  border: 2px solid #7fbcbe;
+  border: 2px solid #fff;
   border-radius: 35px;
 }
 

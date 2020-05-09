@@ -14,7 +14,7 @@ export default function MainFooter() {
         <span></span>
       </div>
       <footer>
-        <div>
+        <div id="about">
           <h2>About us</h2>
           <span></span>
           <p>
