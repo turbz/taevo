@@ -1,11 +1,11 @@
 .App-header {
   color: #737574;
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 86%;
   height: 80px;
-  padding: 0 7%;
+  margin: auto;
   z-index: 100;
 }
 
@@ -105,17 +105,17 @@
 
 @media (max-width: 30em) {
   .App-header {
-    /* width: 92%; */
+    width: 92%;
     height: 60px;
   }
 
   .App-header h1 {
-    /* width: 65%; */
+    width: 65%;
   }
 }
 
 @media (max-width: 20em) {
   .App-header h1 {
-    /* width: 75%; */
+    width: 75%;
   }
 }

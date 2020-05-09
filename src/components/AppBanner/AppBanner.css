@@ -1,7 +1,7 @@
 .App-Banner {
   width: 100%;
   height: 100vh;
-  /* margin-top: -80px; */
+  margin-top: -80px;
 }
 
 .App-Banner > div:first-of-type {
@@ -188,6 +188,11 @@
     font-size: 1.6rem;
   }
 
+  .App-Banner > div:first-of-type div {
+    width: 60%;
+    margin-left: 5%;
+  }
+
   .App-Banner > div:first-of-type p {
     font-size: 0.875rem;
   }
@@ -195,6 +200,11 @@
   .App-Banner > div:first-of-type ul {
     flex-wrap: wrap;
     margin-top: 1em;
+  }
+
+  .App-Banner > div:first-of-type ul li:first-of-type a {
+    font-size: 1rem;
+    padding: 0.6em 0.8em;
   }
 
   .App-Banner > div:first-of-type ul li:first-of-type {
@@ -218,7 +228,24 @@
 }
 
 @media (max-width: 20em) {
+  .App-Banner > div:first-of-type {
+    padding-top: 5em;
+  }
+
+  .App-Banner > div:first-of-type ul li:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .App-Banner > div:first-of-type ul li:first-of-type a {
+    font-size: 0.875rem;
+    padding: 0.5em 0.5em;
+  }
+
   .App-Banner > div:last-of-type {
     margin-top: 5em;
+  }
+
+  .App-Banner > div:first-of-type h2 {
+    font-size: 1.2rem;
   }
 }
