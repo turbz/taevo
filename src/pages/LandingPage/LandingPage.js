@@ -2,7 +2,7 @@ import React from "react";
 import ContactPage from "../../components/ContactPage.js/ContactPage";
 import AppHeader from "../../components/AppHeader/AppHeader";
 import AppBanner from "../../components/AppBanner/AppBanner";
-import About from "../../components/About/About";
+// import About from "../../components/About/About";
 import Services from "../../components/Services/Services";
 
 import "./LandingPage.css";
