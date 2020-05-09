@@ -105,17 +105,17 @@
 
 @media (max-width: 30em) {
   .App-header {
-    width: 92%;
+    /* width: 92%; */
     height: 60px;
   }
 
   .App-header h1 {
-    width: 65%;
+    /* width: 65%; */
   }
 }
 
-@media (max-width: 30em) {
+@media (max-width: 20em) {
   .App-header h1 {
-    width: 75%;
+    /* width: 75%; */
   }
 }

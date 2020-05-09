@@ -14,7 +14,7 @@ export default function AppHeader() {
         <img src={logo} alt="taevo" />
         <span></span>
         <img src={smartphone} alt="phone" />
-        <span>+27 67 060 0708</span>{" "}
+        <span>+27 061 582 4952</span>{" "}
       </h1>
       <nav className={!addClass ? "nav" : "nav addClass"}>
         <ul>

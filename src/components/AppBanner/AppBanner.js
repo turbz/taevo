@@ -42,7 +42,7 @@ export default function AppBanner() {
       <div id="features">
         <h3>
           <span>Our Solutions</span>
-          <span>A way of getting work done.</span>
+          <span>Transform your employee experience.</span>
         </h3>
         <p>
           Simple and easy-to-follow software solution that reduce human errors.
@@ -59,7 +59,7 @@ export default function AppBanner() {
             <img src={report} alt="icon" />
             <span>
               {" "}
-              Generate value using people analytics to solve business problems
+              Generate value using people analytics to solve business problems.
             </span>
           </li>
           <li>
@@ -70,7 +70,9 @@ export default function AppBanner() {
           </li>
           <li>
             <img src={password} alt="icon" />
-            <span>Lorem ipsum dolor sit amet, consectetur</span>
+            <span>
+              Maximizes connectivity and collaboration while mitigating risks.
+            </span>
           </li>
         </ul>
       </div>
