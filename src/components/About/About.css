@@ -1,0 +1,53 @@
+.About {
+  margin: 8em 0;
+}
+
+.About-Card {
+  width: 65%;
+  margin: 3em auto;
+}
+
+.About-Card header {
+  display: flex;
+  text-align: right;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.About-Card header h2 {
+  width: 50%;
+}
+
+.About-Card header span {
+  display: inline-block;
+  height: 45px;
+  border-left: 2px solid #ffd13a;
+  margin: 0 0.5em;
+}
+
+.About-Card header h4 {
+  color: #7fbcbe;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin: auto 0;
+  letter-spacing: 0.1rem;
+}
+
+.About-Card div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.About-Card div figure {
+  width: 48%;
+  padding: 0 0.5em;
+}
+
+.About-Card div p {
+  font-size: 0.875rem;
+  color: #b1b5b2;
+  width: 48%;
+  padding: 0 0.5em;
+  line-height: 1rem;
+}

@@ -1,0 +1,210 @@
+.Pricing {
+  width: 87.5%;
+  margin: 150px auto;
+  position: relative;
+  z-index: 0;
+}
+
+.Pricing .call-to-action {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.Pricing .call-to-action h3 {
+  font-size: 1.5rem;
+}
+
+.Pricing .call-to-action p {
+  margin: 30px 0;
+}
+
+.Pricing .call-to-action a {
+  font-size: 1.2rem;
+  display: block;
+  color: #fff;
+  width: 240px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 1.2em 0;
+  background-color: rgba(255, 209, 58, 1);
+  border-radius: 35px;
+}
+
+.Pricing article {
+  position: relative;
+  width: 240px;
+  height: 365px;
+  margin: 0 auto;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 90px;
+}
+
+.Pricing article header {
+  display: flex;
+  padding: 20px 20px 0;
+}
+
+.Pricing article header img {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.Pricing article header li:nth-child(1),
+.Pricing article header li:nth-child(4) {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.Pricing article header li:nth-child(2) {
+  width: 20px;
+  display: block;
+  margin: 10px 0 15px;
+  border: 2px solid #323742;
+  border-radius: 15px;
+}
+
+.Pricing article header li:nth-child(3),
+.Pricing article header li:nth-child(4) {
+  font-size: 1.25rem;
+  margin-bottom: 0.1em;
+}
+
+.Pricing article header li:nth-child(3) {
+  color: rgba(255, 209, 58, 1);
+}
+
+.Pricing article header li:nth-child(5) {
+  font-size: 0.675rem;
+  color: #9dadcf;
+}
+
+.Pricing article > ul:nth-child(2) {
+  width: 100%;
+  height: 220px;
+  padding: 15% 20px;
+}
+
+.Pricing article > ul:nth-child(2) li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.Pricing article > ul:nth-child(2) img {
+  width: 10px;
+  margin-right: 10px;
+}
+
+.Pricing footer {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Pricing .taevo-style {
+  margin-bottom: 23px;
+}
+
+.Pricing .taevo-style span {
+  height: 80px;
+  margin-bottom: -30px;
+}
+
+.Pricing article a {
+  text-align: center;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  width: 180px;
+  height: 45px;
+  margin: 0;
+  bottom: 0;
+  margin-top: -23px;
+  margin-left: 31px;
+  padding: 0.8em 0;
+  background-color: #3fbcbe;
+  border: 2px solid #3fbcbe;
+  border-radius: 35px;
+  z-index: 1;
+}
+
+@media (min-width: 30em) {
+  .Pricing {
+    clear: both;
+    width: 90.5%;
+    margin: 0 auto;
+    padding: 15% 0;
+  }
+  .Pricing .call-to-action {
+    margin-bottom: 180px;
+  }
+
+  .Pricing .call-to-action h3 {
+    font-size: 2rem;
+  }
+
+  .Pricing .call-to-action p {
+    margin: 46px 0;
+  }
+
+  .Pricing .Card {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .Pricing article {
+    width: 250px;
+  }
+
+  .Pricing article:nth-child(2) {
+    width: 280px;
+    height: 405px;
+    position: relative;
+    box-shadow: 0 0 25px #0000001a;
+    margin-top: -30px;
+    z-index: 100;
+  }
+
+  .Pricing article:nth-child(2) > ul:nth-child(2) {
+    height: 220px;
+  }
+
+  .Pricing article:nth-child(2) .taevo-style span {
+    height: 100px;
+    margin-bottom: -40px;
+  }
+
+  .Pricing article a {
+    margin-left: 24px;
+  }
+
+  .Pricing article:nth-child(2) a {
+    margin-left: 34px;
+  }
+}
+
+@media (min-width: 50em) {
+  .Pricing {
+    padding-top: 0;
+  }
+  .Pricing .Card {
+    display: flex;
+    width: 68.5%;
+    margin: 0 auto;
+  }
+
+  .Pricing article > ul:nth-child(2) {
+    padding: 15% 30px;
+  }
+
+  .Pricing article:nth-child(2) a {
+    margin-left: 50px;
+  }
+
+  .Pricing article a {
+    margin-left: 36px;
+  }
+}

@@ -1,0 +1,129 @@
+.taevo-style {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: -60px;
+  overflow: hidden;
+}
+
+.taevo-style span {
+  display: inline-block;
+  width: 125%;
+  height: 150px;
+}
+
+.taevo-style span:first-of-type {
+  background-color: rgba(255, 209, 58, 0.4);
+  border-radius: 0 100% 0 0;
+  margin-right: -120%;
+}
+
+.taevo-style span:last-of-type {
+  background-color: rgba(241, 97, 98, 0.4);
+  border-radius: 100% 0 0 0;
+}
+
+.Main-Footer footer {
+  position: relative;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #7fbcbe;
+  padding: 60px 0;
+}
+
+.Main-Footer footer h2 {
+  font-size: 1.25rem;
+}
+
+.Main-Footer footer div {
+  width: 84%;
+  margin: 0 auto 30px;
+}
+
+.Main-Footer footer div:last-of-type {
+  margin-bottom: 0;
+}
+
+.Main-Footer footer ul span:first-of-type {
+  display: flex;
+  width: 36px;
+  margin: 0;
+  height: 36px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.Main-Footer ul a {
+  color: #fff;
+}
+
+.Main-Footer ul a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.Main-Footer footer ul img {
+  width: auto;
+  height: 18px;
+  margin: auto;
+}
+
+.Main-Footer footer span:last-of-type {
+  display: block;
+  width: 40px;
+  margin: 15px 0;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+
+.Main-Footer footer p {
+  text-transform: none;
+  line-height: 1.4;
+}
+
+.Main-Footer footer li {
+  margin-bottom: 1em;
+}
+
+.Main-Footer footer div:last-of-type li {
+  display: flex;
+}
+
+.Main-Footer footer div:last-of-type ul a {
+  border: none;
+  margin: auto 22px;
+}
+
+@media (min-width: 30em) {
+  .taevo-style {
+    margin-bottom: -140px;
+  }
+
+  .taevo-style span {
+    height: 345px;
+  }
+
+  .Main-Footer footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Main-Footer footer div {
+    width: 40%;
+    margin: 0 0 60px 60px;
+  }
+}
+
+@media (min-width: 50em) {
+  .taevo-style span {
+    height: 345px;
+  }
+
+  .Main-Footer footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Main-Footer footer div {
+    width: 20%;
+    margin: 0px 0 60px 60px;
+  }
+}
