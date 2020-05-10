@@ -25,7 +25,7 @@ app.use(cors());
 // Serve the static files from the React app
 app.use(express.static("build"));
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
@@ -35,14 +35,15 @@ app.use(function(req, res, next) {
 });
 
 let transport = {
-  pool: true,
-  host: "mail.taevo.co.za",
-  port: 465,
-  secure: true, // upgrade later with STARTTLS
+  // pool: true,
+  // host: "mail.taevo.co.za",
+  // port: 465,
+  // secure: true, // upgrade later with STARTTLS
+  service: "gmail",
   auth: {
     user: creds.USER,
-    pass: creds.PASS
-  }
+    pass: creds.PASS,
+  },
 };
 
 let transporter = nodemailer.createTransport(transport);
@@ -65,17 +66,17 @@ app.post("/send", (req, res, next) => {
     from: name,
     to: creds.USER, //Change to email address that you want to receive messages on
     subject: "New Message from Contact Form",
-    text: content
+    text: content,
   };
 
   transporter.sendMail(mail, (err, data) => {
     if (err) {
       res.json({
-        msg: "fail"
+        msg: "fail",
       });
     } else {
       res.json({
-        msg: "success"
+        msg: "success",
       });
     }
   });
