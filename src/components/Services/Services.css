@@ -67,6 +67,7 @@
 }
 
 .Services article div a {
+  font-weight: 500;
   color: #fff;
   padding: 0.8em 2em;
   border-radius: 35px;
