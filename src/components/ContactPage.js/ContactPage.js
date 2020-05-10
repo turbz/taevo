@@ -61,7 +61,13 @@ export default function ContactPage() {
             </li>
           </ul>
         </div>
-        <form id="contact" onSubmit={handleSubmit} method="POST">
+        <form
+          id="contact"
+          // onSubmit={handleSubmit}
+          name="input"
+          method="POST"
+          action="https://turbz.github.io/taevo-website/taevo.softwares@gmail.com"
+        >
           <input
             type="text"
             name="name"
