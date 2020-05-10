@@ -15,7 +15,7 @@ export default function ContactPage() {
     const message = document.getElementById("message").value;
     axios({
       method: "POST",
-      url: "http://localhost:5000/taevo-website/send",
+      url: "https://turbz.github.io//taevo-website/send",
       data: {
         name: name,
         email: email,
