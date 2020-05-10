@@ -112,6 +112,7 @@
   }
 
   .App-header .close {
+    display: inline-block;
     cursor: pointer;
     position: absolute;
     top: 4em;
@@ -161,8 +162,8 @@
 
 @media (max-width: 30em) {
   .App-header {
-    width: 92%;
     height: 60px;
+    padding: 0 5%;
   }
 
   .App-header h1 {
