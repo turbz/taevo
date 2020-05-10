@@ -57,7 +57,7 @@ export default function ContactPage() {
               <strong>Email:</strong> info@taevo.co.za
             </li>
             <li>
-              <strong>Cellphone:</strong> 081 342 5982
+              <strong>Cellphone:</strong> +27 061 582 4952
             </li>
           </ul>
         </div>
