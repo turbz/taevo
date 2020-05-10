@@ -21,7 +21,13 @@ export default function AppHeader() {
         <img src={smartphone} alt="phone" />
         <span>+27 061 582 4952</span>{" "}
       </h1>
-      <nav className={!addClass ? "nav" : "nav addClass animated slideInLeft"}>
+      <nav
+        className={
+          !addClass
+            ? "nav"
+            : "nav addClass animate__animated animate__slideInRight"
+        }
+      >
         <img
           src={close}
           alt="close"
