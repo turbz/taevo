@@ -49,6 +49,14 @@
   margin: auto 0;
 }
 
+.animate__animated {
+  animation: none !important;
+}
+
+.animate__slideInRight {
+  animation-name: initial !important;
+}
+
 .App-header ul {
   display: flex;
   justify-content: space-between;
