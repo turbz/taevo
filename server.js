@@ -35,11 +35,10 @@ app.use(function (req, res, next) {
 });
 
 let transport = {
-  // pool: true,
-  // host: "mail.taevo.co.za",
-  // port: 465,
-  // secure: true, // upgrade later with STARTTLS
-  service: "gmail",
+  pool: true,
+  host: "mail.taevo.co.za",
+  port: 465,
+  secure: true, // upgrade later with STARTTLS
   auth: {
     user: creds.USER,
     pass: creds.PASS,
