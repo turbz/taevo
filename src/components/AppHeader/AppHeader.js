@@ -36,9 +36,7 @@ export default function AppHeader() {
         />
         <ul>
           <li>
-            <a onClick={onToggleClass} href="#Home">
-              Home
-            </a>
+            <a href="#Home">Home</a>
           </li>
           <li>
             <a onClick={onToggleClass} href="#about">

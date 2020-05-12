@@ -49,10 +49,6 @@
   margin: auto 0;
 }
 
-.animate__slideInRight {
-  animation-name: initial !important;
-}
-
 .App-header ul {
   display: flex;
   justify-content: space-between;
@@ -100,10 +96,6 @@
 
   .App-header nav {
     display: none;
-  }
-
-  .animate__slideInRight {
-    animation-name: slideInRight !important;
   }
 
   .App-header nav.addClass {
