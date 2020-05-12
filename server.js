@@ -55,7 +55,7 @@ transporter.verify((error, success) => {
   }
 });
 
-app.post("/taevo-website/send", (req, res, next) => {
+app.post("/send", (req, res, next) => {
   const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message;
