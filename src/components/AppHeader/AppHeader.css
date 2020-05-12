@@ -49,10 +49,6 @@
   margin: auto 0;
 }
 
-.animate__animated {
-  animation: none !important;
-}
-
 .animate__slideInRight {
   animation-name: initial !important;
 }
@@ -104,6 +100,10 @@
 
   .App-header nav {
     display: none;
+  }
+
+  .animate__slideInRight {
+    animation-name: slideInRight !important;
   }
 
   .App-header nav.addClass {
