@@ -13,8 +13,11 @@
 
 .App-Banner > div .Slider ul {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
   z-index: 100;
-  right: 3em;
+  right: 7%;
   bottom: 6em;
 }
 
@@ -22,8 +25,14 @@
   cursor: pointer;
   width: 10px;
   height: 10px;
+  margin: 0;
+  padding: 0;
   background-color: #d7dbd8;
   border-radius: 50%;
+}
+
+.App-Banner > div .Slider ul li:last-of-type {
+  margin: 0;
 }
 
 .App-Banner > div .Slider.mobile {

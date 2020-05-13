@@ -6,6 +6,7 @@ import "./Slider.css";
 
 import banner1 from "../../assets/bg-banner.png";
 import banner2 from "../../assets/bg-banner-2.png";
+import banner3 from "../../assets/bg-banner-3.png";
 
 // Movile banners
 
@@ -19,7 +20,7 @@ export default function Slider() {
     const interval = setInterval(() => {
       setSlide((slide) => slide + 1);
 
-      if (slide === 2) {
+      if (slide === 3) {
         setSlide(1);
       }
     }, 8000);
@@ -45,10 +46,18 @@ export default function Slider() {
             className=" animate__animated animate__slideInRight faster"
           />
         )}
+        {slide === 3 && (
+          <img
+            src={banner3}
+            alt="slide"
+            className=" animate__animated animate__slideInRight faster"
+          />
+        )}
 
         <ul>
           <li onClick={() => setSlide(1)}></li>
           <li onClick={() => setSlide(2)}></li>
+          <li onClick={() => setSlide(3)}></li>
         </ul>
       </div>
 
