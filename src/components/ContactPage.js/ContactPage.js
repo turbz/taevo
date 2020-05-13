@@ -8,13 +8,13 @@ import close from "../assets/exit-white.svg";
 export default function ContactPage() {
   const [successMessage, setSuccessMessage] = useState(null);
   const [hide, setHide] = useState(false);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    fetch("/send", {
+    await fetch("/send", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

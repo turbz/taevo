@@ -4,8 +4,9 @@ const helmet = require("helmet");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const creds = require("./config/config");
+// const creds = require("./config/config");
 const path = require("path");
+require("dotenv").config();
 
 const app = express();
 
@@ -40,8 +41,8 @@ let transport = {
   port: 465,
   secure: true, // upgrade later with STARTTLS
   auth: {
-    user: creds.USER,
-    pass: creds.PASS,
+    user: process.env.MAIL_USER,
+    pass: process.env.MAIL_PASS,
   },
 };
 
@@ -63,7 +64,7 @@ app.post("/send", (req, res, next) => {
 
   let mail = {
     from: name,
-    to: creds.USER, //Change to email address that you want to receive messages on
+    to: process.env.MAIL_USER, //Change to email address that you want to receive messages on
     subject: "New Message from Contact Form",
     text: content,
   };
