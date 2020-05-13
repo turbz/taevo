@@ -33,10 +33,10 @@
     "sitemap": "babel-node ./sitemap-builder.js",
     "deploy": "yarn run build && gh-pages -d build"
   },
-  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": "react-app"
   },
+  "proxy": "http://localhost:5000",
   "browserslist": {
     "production": [
       ">0.2%",
