@@ -43,14 +43,14 @@ export default function Slider() {
           <img
             src={banner2}
             alt="slide"
-            className=" animate__animated animate__slideInRight faster"
+            className=" animate__animated animate__lightSpeedInRight faster"
           />
         )}
         {slide === 3 && (
           <img
             src={banner3}
             alt="slide"
-            className=" animate__animated animate__slideInRight faster"
+            className=" animate__animated animate__backInLeft faster"
           />
         )}
 

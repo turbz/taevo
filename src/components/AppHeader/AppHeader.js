@@ -25,7 +25,7 @@ export default function AppHeader() {
         className={
           !addClass
             ? "nav"
-            : "nav addClass animate__animated animate__slideInRight"
+            : "nav addClass animate__animated animate__slideInRight animate__delay-1s"
         }
       >
         <img
