@@ -33,6 +33,7 @@
     "sitemap": "babel-node ./sitemap-builder.js",
     "deploy": "yarn run build && gh-pages -d build"
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": "react-app"
   },

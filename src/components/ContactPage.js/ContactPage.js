@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 
 import "./ContactPage.css";
 
@@ -13,29 +13,43 @@ export default function ContactPage() {
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
-    axios({
+
+    fetch("/send", {
       method: "POST",
-      url: "https://www.taevo.co.za/send",
-      data: {
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
         name: name,
         email: email,
         message: message,
-      },
-    }).then((response) => {
-      if (response.data.msg === "success") {
-        setSuccessMessage("message sent");
-        resetForm();
-        setSuccessMessage(
-          <div className="contact-message">
-            <span>massage sent</span>
+      }),
+    })
+      // axios({
+      //   method: "POST",
+      //   url: "https://taevo.co.za/send",
+      //   data: {
+      //     name: name,
+      //     email: email,
+      //     message: message,
+      //   },
+      // })
+      .then((response) => response.json())
+      .then((response) => {
+        if (response.msg === "success") {
+          setSuccessMessage("message sent");
+          resetForm();
+          setSuccessMessage(
+            <div className="contact-message">
+              <span>massage sent</span>
 
-            <img src={close} alt="close" onClick={() => setHide(!false)} />
-          </div>
-        );
-      } else if (response.data.msg === "fail") {
-        alert("Message failed to send.");
-      }
-    });
+              <img src={close} alt="close" onClick={() => setHide(!false)} />
+            </div>
+          );
+        } else if (response.msg === "fail") {
+          alert("Message failed to send.");
+        }
+      });
   };
 
   const resetForm = () => {
