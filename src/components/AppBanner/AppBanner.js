@@ -26,10 +26,10 @@ export default function AppBanner() {
           </h4>
           <h2>Forge the Tools of Transformation</h2>
           <p>
-            A cloud-based Human resource information system that elevates a
-            organizations ability to identify, recruit and develop its workforce
-            and help organizations create the HR function that the business
-            needs.
+            A cloud-based Human resource information system that elevates an
+            organization's ability to identify, recruit and develop its
+            workforce and help organizations create the HR function that the
+            business needs.
           </p>
           <ul>
             <li>
