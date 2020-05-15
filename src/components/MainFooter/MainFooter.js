@@ -54,8 +54,8 @@ export default function MainFooter() {
             </li>
           </ul>
         </div>
-        <div>
-          <h2>Customers</h2>
+        <div id="connect">
+          <h2>Connect</h2>
           <span></span>
           <ul>
             <li>

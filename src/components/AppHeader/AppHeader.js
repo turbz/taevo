@@ -61,7 +61,12 @@ export default function AppHeader() {
         </ul>
         <ul>
           <li></li>
-          <li>Connect</li>
+          <li>
+            {" "}
+            <a onClick={onToggleClass} href="#connect">
+              Connect
+            </a>
+          </li>
           <li>
             <a onClick={onToggleClass} href="#contact">
               Try Our Services
