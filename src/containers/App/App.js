@@ -1,7 +1,11 @@
 import React from "react";
+import ReactGA from "react-ga";
+import LandingPage from "../../pages/LandingPage/LandingPage";
 
 import "./App.css";
-import LandingPage from "../../pages/LandingPage/LandingPage";
+
+ReactGA.initialize(process.env.GA_TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
