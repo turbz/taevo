@@ -24,7 +24,7 @@ export default function AppBanner() {
             <span></span>
             <span>Get Work Done</span>
           </h4>
-          <h2>Forge the Tools of Digital Transformation</h2>
+          <h2>Forge the Tools of Transformation</h2>
           <p>
             A cloud-based Human resource information system that elevates an
             organization's ability to identify, recruit and develop its
