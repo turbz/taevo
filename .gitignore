@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/cofnig
 /.pnp
 .pnp.js
 
