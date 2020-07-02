@@ -38,7 +38,7 @@ export default function AppBanner() {
             </li>
             <li>
               <span>from</span>
-              <span>499</span>
+              <span>49</span>
               <span>
                 <span>ZAR</span>
                 <span></span>/month

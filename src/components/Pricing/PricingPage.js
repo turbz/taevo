@@ -24,7 +24,7 @@ export default function PricingPage() {
               <li>Recruiting</li>
               <li></li>
               <li>ZAR</li>
-              <li>1 250</li>
+              <li>49</li>
               <li>per month</li>
             </ul>
           </header>
@@ -47,7 +47,7 @@ export default function PricingPage() {
             </li>
             <li>
               <img src={tick} alt="linkedin" />
-              <span>Customer Support</span>
+              <span>200+ Job Application</span>
             </li>
           </ul>
           <footer>
@@ -66,7 +66,7 @@ export default function PricingPage() {
               <li>Headcount</li>
               <li></li>
               <li>ZAR</li>
-              <li>1 250</li>
+              <li>49</li>
               <li>per month</li>
             </ul>
           </header>
@@ -89,7 +89,7 @@ export default function PricingPage() {
             </li>
             <li>
               <img src={tick} alt="linkedin" />
-              <span>Customer Support</span>
+              <span>2+ Employees</span>
             </li>
           </ul>
           <footer>
@@ -108,7 +108,7 @@ export default function PricingPage() {
               <li>Training</li>
               <li></li>
               <li>ZAR</li>
-              <li>1 250</li>
+              <li>49</li>
               <li>per month</li>
             </ul>
           </header>
@@ -131,7 +131,7 @@ export default function PricingPage() {
             </li>
             <li>
               <img src={tick} alt="linkedin" />
-              <span>Customer Support</span>
+              <span>2+ Trainees</span>
             </li>
           </ul>
           <footer>
